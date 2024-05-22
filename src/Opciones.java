@@ -60,11 +60,11 @@ public class Opciones {
         return cantidad;
     }
 
-    public static Double cantidadObtenida(String monedaBase, Double cantidadCambiar, Double tasaDeConversion, String monedaFinal){
+    public static void cantidadObtenida(String monedaBase, Double cantidadCambiar, Double tasaDeConversion, String monedaFinal){
         Double resultado = cantidadCambiar * tasaDeConversion;
         System.out.println("**********************************************************************************");
         System.out.println(cantidadCambiar + " " + monedaBase + " equivalen a: " + resultado + " " + monedaFinal);
-        return resultado;
+
     }
 
 
