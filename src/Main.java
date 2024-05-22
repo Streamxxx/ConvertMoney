@@ -1,6 +1,3 @@
-import com.google.gson.JsonObject;
-
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,7 +20,7 @@ public class Main {
                     double cantidadMoneda = Opciones.usuarioCantidadMoneda();
                     Monedas moneda = consulta.consultaMoneda(monedaBase);
                     double tasaDeConversion = moneda.getConversionRate(monedaFinal.toUpperCase());
-                    double cantidadObtenida = Opciones.cantidadObtenida(monedaBase, cantidadMoneda, tasaDeConversion, monedaFinal);
+                    Opciones.cantidadObtenida(monedaBase, cantidadMoneda, tasaDeConversion, monedaFinal);
                     break;
 
                 case 3:

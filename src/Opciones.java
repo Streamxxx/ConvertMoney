@@ -26,8 +26,7 @@ public class Opciones {
     }
     public static void divisasDisponibles(String monedaBase){
         System.out.println("***************************");
-        System.out.println("Seleccione la denominacion " +
-                ""+ monedaBase+": \n" );
+        System.out.println("Seleccione la denominacion " + monedaBase+": \n" );
         System.out.println(divisaDisponibles);
         System.out.println("*******************************************");
     }
