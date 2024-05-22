@@ -9,8 +9,6 @@ public class Main {
             opciones.menuInicio();
             opcionUsuario = Opciones.opcionUsuario();
 
-
-
             switch (opcionUsuario){
                 case 1:
                     Opciones.divisasDisponibles("inicial");
